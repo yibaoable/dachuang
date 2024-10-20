@@ -26,11 +26,10 @@
 
 ## 运行准备
 
-- 安装tree-sitter，git clone java语言的仓库tree-sitter-java
+- 安装0.21.3版本的tree-sitter，克隆java语言的仓库tree-sitter-java
 ```
-	pip3 install tree_sitter
+	pip install tree_sitter==0.21.3
 	git clone https://github.com/tree-sitter/tree-sitter-java
-
 ```
 - 生成.so文件，运行下面的代码
 ```python
